@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 5px;
+    
+}
+.container p{
+    text-align: center;
+}
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px aquamarine solid;
+margin: 5px;
+}
+
+
+.dbtn,.gbtn{
+    padding: 10px;
+    border-radius:7px ;
+    margin: 10px;
+    border: none;
+    cursor:pointer;
+    box-shadow: 3px 3px 3px grey;
+}
+.dbtn{
+    color: white;
+    background-color: rgb(5, 199, 5);
+}.gbtn{
+    color: white;
+    background-color:rgb(47, 167, 247);
+}
+img{
+    /* width: 150px; */
+    align-self: center;
+}
+.gbtn:disabled{
+    cursor: not-allowed;
+    background-color: rgb(155, 203, 235);
+}
